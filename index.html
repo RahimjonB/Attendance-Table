@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Attendance Table</h1>
+    <table id="attendance-table">
+      <thead>
+        <tr>
+          <th>Student</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+          <th>Total Marks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Student 1</td>
+          <td>
+            <input type="checkbox" class="attendance-checkbox" data-day="monday">
+            <select class="marks-dropdown">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </td>
+          <td>
+            <input type="checkbox" class="attendance-checkbox" data-day="tuesday">
+            <select class="marks-dropdown">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </td>
+          <td>
+            <input type="checkbox" class="attendance-checkbox" data-day="wednesday">
+            <select class="marks-dropdown">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </td>
+          <td>
+            <input type="checkbox" class="attendance-checkbox" data-day="thursday">
+            <select class="marks-dropdown">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </td>
+          <td>
+            <input type="checkbox" class="attendance-checkbox" data-day="friday">
+            <select class="marks-dropdown">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </td>
+          <td>
+            <input type="checkbox" class="attendance-checkbox" data-day="saturday">
+            <select class="marks-dropdown">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </td>
+          <td class="total-marks">0</td>
+        </tr>
+        <tr>
+            <td>Student 2</td>
+            <td>
+              <input type="checkbox" class="attendance-checkbox" data-day="monday">
+              <select class="marks-dropdown">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </td>
+            <td>
+              <input type="checkbox" class="attendance-checkbox" data-day="tuesday">
+              <select class="marks-dropdown">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </td>
+            <td>
+              <input type="checkbox" class="attendance-checkbox" data-day="wednesday">
+              <select class="marks-dropdown">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </td>
+            <td>
+              <input type="checkbox" class="attendance-checkbox" data-day="thursday">
+              <select class="marks-dropdown">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </td>
+            <td>
+              <input type="checkbox" class="attendance-checkbox" data-day="friday">
+              <select class="marks-dropdown">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </td>
+            <td>
+              <input type="checkbox" class="attendance-checkbox" data-day="saturday">
+              <select class="marks-dropdown">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </td>
+            <td class="total-marks">0</td>
+          </tr>
+          <tr>
+            <td>Student 3</td>
+            <td>
+              <input type="checkbox" class="attendance-checkbox" data-day="monday">
+              <select class="marks-dropdown">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </td>
+            <td>
+              <input type="checkbox" class="attendance-checkbox" data-day="tuesday">
+              <select class="marks-dropdown">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </td>
+            <td>
+              <input type="checkbox" class="attendance-checkbox" data-day="wednesday">
+              <select class="marks-dropdown">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </td>
+            <td>
+              <input type="checkbox" class="attendance-checkbox" data-day="thursday">
+              <select class="marks-dropdown">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </td>
+            <td>
+              <input type="checkbox" class="attendance-checkbox" data-day="friday">
+              <select class="marks-dropdown">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </td>
+            <td>
+              <input type="checkbox" class="attendance-checkbox" data-day="saturday">
+              <select class="marks-dropdown">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </td>
+            <td class="total-marks">0</td>
+          </tr>
+      </tbody>
+    </table>
+  
+    <script src="main.js"></script>
+  </body>
+  
+</html>
+
+
+
+
+

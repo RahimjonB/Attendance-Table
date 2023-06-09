@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #333;
+    color: #fff;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  .attendance-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .attendance-checkbox {
+    margin-right: 5px;
+  }
+
+  .marks-dropdown {
+    margin-left: 5px;
+  }
+
+  .total-marks {
+    font-weight: bold;
+  }
+
+  .total-label {
+    font-weight: bold;
+  }
+
+  .total-row {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .total-row .total-label {
+    text-align: right;
+  }
+
+  .total-row .total-marks {
+    text-align: center;
+  }
